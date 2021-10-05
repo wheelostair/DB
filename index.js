@@ -17,6 +17,10 @@ const students = [
         name: { first: "bill", last: "smith" },
         dob: new Date("August 22, 1982"),
     },
+    {
+        name: { first: "Ally", last: "Barker-Cox" },
+        dob: new Date("January 28, 1983"),
+    },
 ];
 
 server.on("request", async (req, res) => {
